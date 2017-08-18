@@ -1,0 +1,54 @@
+html {
+	background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url(../images/bg.jpg) center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-width: 100%;
+}
+
+body {
+	font-size: 16px;
+	background: none;
+}
+
+.jumbotron {
+	background-color: transparent;
+	color: #fff;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	font-size: 2.5em;
+}
+
+.jumbotron p {
+	font-size: 1.5em;
+}
+
+#city {
+	margin: auto;
+	width: 50%;
+	padding: 5px;
+	font-size: .9em;
+	color: darkgoldenrod;
+	text-align: center;
+}
+
+.btn-custom {
+	background-color: rgba(253, 219, 194, .5);
+	padding: 15px;
+	border-radius: 10px;
+	font-weight: bold;
+	box-shadow: 3px 3px 1px 0 rgb(253, 219, 194);
+	color: #111;
+	transition: all .5s;
+}
+
+.btn-custom:hover {
+	background-color: rgb(253, 219, 194);
+	box-shadow: none;
+}
+
+.displayBox {
+	width: 50%;
+	margin: 20px auto;
+}
